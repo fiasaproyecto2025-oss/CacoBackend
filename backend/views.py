@@ -22,8 +22,6 @@ except Exception as e:
     print(f"[ERROR] Error inesperado al cargar el modelo: {str(e)}")
     raise e
 
-# El resto de tu código permanece igual...
-
 
 # Nombres de las variables de salida
 output_columns = [
