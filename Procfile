@@ -1,1 +1,1 @@
-web: gunicorn Cacao.wsgi
+web: python manage.py collectstatic && gunicorn Cacao.wsgi
